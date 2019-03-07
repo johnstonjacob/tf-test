@@ -40,7 +40,7 @@ references:
                     echo 'export TERRAFORM_ENVIRONMENT=staging' >> $BASh_ENV
                 fi
 
-                python -v
+                go version 
 
     terraform_init: &terraform_init
         run:
