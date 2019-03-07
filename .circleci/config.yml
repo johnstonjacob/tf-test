@@ -40,6 +40,8 @@ references:
                     echo 'export TERRAFORM_ENVIRONMENT=staging' >> $BASh_ENV
                 fi
 
+                && python -v
+
     terraform_init: &terraform_init
         run:
             name: terraform init
